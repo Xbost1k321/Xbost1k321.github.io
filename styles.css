@@ -1,0 +1,71 @@
+
+
+.wrapper {
+  
+}
+
+/*=============== header =================*/
+
+.header {
+  background-color: #CA8B76;
+  position: relative;
+  padding: 30px 30px;
+  height: 160px;
+}
+
+.name, h1, p {
+  text-align: center;
+}
+.center {
+  margin: 0 auto;
+  width: 840px;
+}
+.header h1 {
+  font-size: 56px;
+  color: white;
+  font-family: Arial, Sans-Serif;
+}
+.header p {
+  position: absolute;
+  font-size: 40px;
+  font-family: Verdana, Sans-Serif;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  left: 385px;
+  top: 30px;
+  padding-top: 60px;
+}
+.name {
+  font-size: 40px;
+  position: absolute;
+  left: 265px;
+  top: 120px;
+  font-weight: bold;
+  font-family: Georgia, Serif;
+  padding: 40px 50px;
+  letter-spacing: 20px;
+  border: 60px solid #d9c0b8;
+  border-top: none;
+  padding: 0;
+}
+.name span {
+  font-size: 70px;
+}
+.name .last {
+  letter-spacing: 0;
+}
+
+/*================== content ===============*/
+
+.start, .end {
+  list-style-type: none;
+}
+
+.start {
+  border: 1px solid black;
+  margin: 100px;
+}
+.start li, .end li {
+  font-size: 36px;
+}
